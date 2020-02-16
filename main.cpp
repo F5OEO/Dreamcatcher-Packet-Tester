@@ -390,7 +390,7 @@ int main()
 
 	while (!mixer_freq)
 	{
-		printf("Select TX frequency (Mhz):");
+		printf("Select TX frequency (MHz):");
 		if ((scanf("%d",&mixer_freq)==1)&&(mixer_freq>=40)&&(mixer_freq<=6000))
 		{
 			printf("Selected TX frequency: %hu MHz\r\n",mixer_freq);
